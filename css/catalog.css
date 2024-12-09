@@ -49,3 +49,34 @@
 .catalog__order:hover {
     background: #de8504;
 }
+
+@media screen and (max-width: 968px) {
+    .catalog {
+        justify-content: space-evenly;
+    }
+
+    .catalog__item {
+        width: 40%;
+        height: 475px;
+        margin: 15px 0;
+    }
+    
+    .catalog__name {
+        font-size: 22px;
+    }
+    
+    .catalog__description {
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+    
+    .catalog__price {
+        font-size: 24px;
+        font-weight: bold;
+    
+    }
+    
+    .catalog__order {
+        font-size: 22px;
+    }
+}

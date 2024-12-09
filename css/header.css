@@ -30,11 +30,13 @@
 
 .nav__element {
     font-size: 18px;
+    
 }
 
 .nav__link {
     text-align: center;
     width: 120%;
+    padding: 5px 0;
     color: black;
     font-weight: bold;
     transition: 0.3s;
@@ -57,4 +59,68 @@
 .header__address {
     font-size: 16px;
     font-weight: normal;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__cross {
+    display: none;
+}
+
+@media screen and (max-width: 968px) {
+    .header__logo-link {
+        width: 125px;
+    }
+    .nav__list {
+        width: 400px;
+    } 
+    .nav__element {
+        font-size: 16px;
+    }
+    .nav__link {
+        padding: 20px 0;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .header__address {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+    .nav {
+        display: none;
+        position: absolute;
+        width: 120vw;
+        height: 100vh;
+        top: 0%;
+        left: -15%;
+        background: white;
+    }
+    
+    .header__burger, .header__cross {
+        font-size: 24px;
+        z-index: 1;
+    }
+    
+    .header__burger {
+        display: block;
+    }
+
+    .nav__list {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .header__contacts {
+        display: none;
+    }
 }

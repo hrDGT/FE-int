@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/10dea7bbd3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/header.css">
@@ -12,8 +13,8 @@
     <link rel="stylesheet" href="css/catalog.css">
     <link rel="stylesheet" href="css/reserve.css">
     <link rel="stylesheet" href="css/contacts.css">
+    <script src="index.js"></script>
     <link rel="icon" href="img/favicon.png" type="image/png">
-    <script src="https://kit.fontawesome.com/10dea7bbd3.js" crossorigin="anonymous"></script>
     <title>ШашлычОК</title>
 </head>
 
@@ -22,12 +23,16 @@
         <a class="header__logo-link" href="#"><img class="header__logo-image" src="img/logo.png" alt="logo"></a>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__element"><a class="nav__link" href="#shashlik">Шашлык</a></li>
-                <li class="nav__element"><a class="nav__link" href="#shawarma">Шаурма</a></li>
-                <li class="nav__element"><a class="nav__link" href="#contacts">Контакты</a></li>
-                <li class="nav__element"><a class="nav__link" href="#reserve">Забронировать</a></li>
+                <li class="nav__element"><a class="nav__link" href="#shashlik" onclick="menuClose()">Шашлык</a></li>
+                <li class="nav__element"><a class="nav__link" href="#shawarma" onclick="menuClose()">Шаурма</a></li>
+                <li class="nav__element"><a class="nav__link" href="#contacts" onclick="menuClose()">Контакты</a></li>
+                <li class="nav__element"><a class="nav__link" href="#reserve" onclick="menuClose()">Забронировать</a></li>
             </ul>
         </nav>
+        <i class="header__burger fa-solid fa-bars" onclick="menuOpen()"></i>
+        <script>
+        </script>
+        <i class="header__cross fa-solid fa-x" onclick="menuClose()"></i>
         <div class="header__contacts">
             <span class="header__phone">+375 29 555-33-88</span> <br>
             <span class="header__address">Смоленская улица, 2Бк1</span>
@@ -217,7 +222,7 @@
                     </label>
                 </div>
                 <label class="reserve__additional">
-                    Укражите дополнительную информацию <br>
+                    Укажите дополнительную информацию <br>
                     <textarea placeholder="Трое посетителей, из них четверо детей"></textarea>
                 </label>
                 <button class="reserve__button button">Забронировать</button>

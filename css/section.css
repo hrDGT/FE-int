@@ -20,3 +20,21 @@
     font-size: 22px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 968px) {
+    .section {
+        padding: 35px;
+    }
+    
+    .section-description {
+        height: 10vw;
+    }
+    
+    .section-description__title {
+        font-size: 46px;
+    }
+    
+    .section-description__text {
+        font-size: 16px;
+    }
+}

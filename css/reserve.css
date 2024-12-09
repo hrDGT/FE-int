@@ -48,3 +48,22 @@
     color: white;
     background: #382030;
 }
+
+@media screen and (max-width: 968px) {
+    .reserve__form {
+        height: 350px;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+    
+    .reserve__additional > textarea {
+        height: 75px;
+        padding: 5px 0 0 5px;
+        resize: none;
+    }
+    
+    .reserve__button {
+        padding: 10px 40px;
+        font-size: 16px;
+    }    
+}

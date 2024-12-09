@@ -33,3 +33,9 @@ a {
 .shashlik {
     background: #f0f0f0;
 }
+
+@media screen and (max-width: 968px) {
+    :root {
+        --header-height: 100px;
+    }
+}
