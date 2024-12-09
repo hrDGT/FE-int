@@ -80,3 +80,37 @@
         font-size: 22px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .catalog__item {
+        width: 40%;
+        height: 340px;
+        margin: 10px 0;
+    }
+    
+    .catalog__name {
+        font-size: 18px;
+    }
+    
+    .catalog__description {
+        font-size: 12px;
+        justify-content: space-evenly;
+    }
+    
+    .catalog__price {
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .catalog__order {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .catalog__item {
+        width: 60%;
+        height: 320px;
+    }
+}

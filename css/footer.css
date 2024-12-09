@@ -21,7 +21,23 @@
         width: 60vw;
         font-size: 16px;
     }
+}
+
+@media screen and (max-width: 768px) {   
+    .footer__text {
+        width: 60vw;
+        font-size: 12px;
+    }
     .footer__logo {
-        width: 8vw;
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer__text {
+        width: 80vw;
+    }
+    .footer__logo {
+        width: 18vw;
     }
 }

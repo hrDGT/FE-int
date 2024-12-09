@@ -73,3 +73,34 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .title__about {
+        width: 150%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title__about {
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .title__name {
+        font-size: 40px;
+    }
+    
+    .title__subname {
+        font-size: 40px;
+    }
+    
+    .title__about {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .title__button {
+        font-size: 20px;
+    }
+}

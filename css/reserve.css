@@ -67,3 +67,27 @@
         font-size: 16px;
     }    
 }
+
+@media screen and (max-width: 768px) {
+    .reserve__form {
+        height: 400px;
+        font-size: 16px;
+        justify-content: space-evenly;
+    }
+
+    .reserve__selection > input, select {
+        height: auto;
+        padding: 5px 0;
+    }
+    
+    .reserve__additional > textarea {
+        height: 55px;
+        padding: 5px 0 0 5px;
+        resize: none;
+    }
+    
+    .reserve__button {
+        padding: 15px 40px;
+        font-size: 16px;
+    }    
+}
