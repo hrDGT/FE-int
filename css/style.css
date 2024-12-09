@@ -17,8 +17,6 @@ a {
     display: block;
 }
 
-
-
 .button {
     font-weight: bold;
     color: #382030;
@@ -30,6 +28,8 @@ a {
 .button:hover {
     background: #ffc88a;
 }
+
+
 
 .section {
     padding: 50px;
@@ -56,6 +56,22 @@ a {
 
 
 
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog__item {
+    width: 30%;
+    height: 575px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .catalog__image {
     width: 100%;
 }
@@ -67,7 +83,11 @@ a {
 
 .catalog__description {
     font-size: 18px;
+    height: 150px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .catalog__price {
@@ -80,9 +100,6 @@ a {
     font-size: 26px;
     padding: 10px 65px;
     border-radius: 10px;
-}
-
-.catalog__order {
     background: #382030;
     color: #f0f0f0;
 }
@@ -218,63 +235,9 @@ a {
     background: #f0f0f0;
 }
 
-.shashlik__catalog {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.shashlik__item {
-    width: 30%;
-    height: 550px;
-    margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.shashlik__description {
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
 
 .shawarma {
-    display: grid;
-    gap: 50px;
-    text-align: center;
-}
-
-.shawarma__catalog {
-    display: grid;
-    gap: 70px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.shawarma__item {
-    height: 550px;
-    display: grid;
-    gap: 10px;
-}
-
-.shawarma__description {
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 1fr;
-    text-align: center;
-}
-
-.shawarma__order {
-    height: 50px;
-    width: 240px;
-    line-height: 48px;
-    margin: 0 auto;
-    padding: 0;
+    /*  */
 }
 
 
@@ -321,6 +284,9 @@ a {
 
 .footer {
     background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__text {
@@ -328,13 +294,8 @@ a {
     color: gray;
     width: 40vw;
     font-size: 18px;
-    position: relative;
-    left: 30%;
 }
 
 .footer__logo {
     width: 10vw;
-    position: relative;
-    top: 2.5vw;
-    left: 45%;
 }
