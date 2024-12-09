@@ -1,0 +1,55 @@
+.title {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url(../img/title-bg.jpg);
+    background-size: cover;
+    background-position: 0 100px;
+    padding-top: var(--header-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title__text {
+    height: 30%;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.title__name {
+    font-size: 80px;
+    font-weight: 900;
+    color: #de8504;
+}
+
+.title__subname {
+    color:white;
+    font-size: 80px;
+}
+
+.title__about {
+    width: 80%;
+    font-size: 26px;
+    text-align: center;
+}
+
+.title__button {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background: white;
+    color: #382030;
+    font-weight: 900;
+}
+
+.title__button:hover {
+    background: #de8504;
+    color: white;
+}

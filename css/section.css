@@ -1,0 +1,22 @@
+.section {
+    padding: 50px;
+}
+
+.section-description {
+    height: 12vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-description__title {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.section-description__text {
+    font-size: 22px;
+    font-weight: normal;
+}

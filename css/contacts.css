@@ -1,0 +1,37 @@
+.contacts {
+    background: rgb(65, 65, 65);
+    color: white;
+}
+
+.contacts__table {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.contacts__row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts__item {
+    width: 30%;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contacts__icon {
+    font-size: 52px;
+}
+
+.contacts__type {
+    font-size: 32px;
+}
+
+.contacts__text {
+    text-align: center;
+    line-height: 24px;
+    height: 50px;
+}
