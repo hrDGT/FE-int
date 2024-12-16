@@ -95,13 +95,14 @@
         justify-content: space-between;
         padding: 0 40px;
     }
+    
     .nav {
         display: none;
         position: absolute;
-        width: 120vw;
+        width: 100vw;
         height: 100vh;
-        top: 0%;
-        left: -15%;
+        top: 0;
+        left: 0;
         background: white;
     }
     
@@ -114,11 +115,19 @@
         display: block;
     }
 
+    .nav__element {
+        text-align: center;
+    }
+
+    .nav__link {
+        display: inline;
+    }
+
     .nav__list {
-        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        margin: 0;
     }
     .header__contacts {
         display: none;

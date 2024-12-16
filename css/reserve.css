@@ -16,7 +16,7 @@
 
 .reserve__selection {
     height: 50px;
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,6 +73,10 @@
         height: 400px;
         font-size: 16px;
         justify-content: space-evenly;
+    }
+
+    .reserve__selection {
+        font-size: 14px;
     }
 
     .reserve__selection > input, select {
